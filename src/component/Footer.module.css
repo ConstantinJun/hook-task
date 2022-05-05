@@ -1,0 +1,35 @@
+.footer {
+    padding: 10px;
+    background: #00d4ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .footer button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6px;
+    background: none;
+    border: none;
+    width: 100px;
+    padding: auto;
+  }
+  
+
+ .footer button:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.3s color ease;
+  }
+  
+ .footer button:hover > svg {
+    stroke: black;
+    transition: 0.3s stroke ease;
+  }
+  
+ .footer button:hover > svg {
+    stroke: #fff;
+  }

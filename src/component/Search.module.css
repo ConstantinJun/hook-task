@@ -1,0 +1,23 @@
+.search {
+    position: relative;
+  }
+  
+  .search input {
+    padding: 5px;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .btn {
+    height: 15px;
+    border-radius: 15px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    bottom: 10px;
+  }
+
+  .btn:hover{
+      cursor: pointer;
+  }
