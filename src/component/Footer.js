@@ -23,7 +23,7 @@ function Footer() {
       .then((taskid) =>
         dispatch({
           type: "ADD_POST",
-          payload: { name: valueTask, id: taskid.name },
+          payload: { name: valueTask, id: taskid.name, status: false },
         })
       );
   };
